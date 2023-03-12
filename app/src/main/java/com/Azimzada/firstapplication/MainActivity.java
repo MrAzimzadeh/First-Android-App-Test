@@ -18,6 +18,8 @@ import com.Azimzada.firstapplication.databinding.ActivityMainBinding;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import java.util.function.DoubleToIntFunction;
+
 public class MainActivity extends AppCompatActivity {
 
     private AppBarConfiguration appBarConfiguration;
@@ -43,6 +45,45 @@ public class MainActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+        /**/
+        int sayi1;
+        sayi1 = 27;
+
+        int sayi2 = sayi1;
+        int sayi3  = -15 ;
+        int not1 = 77, not2 = 56;
+        int ortlama1 = 55 , ortalama2;
+        ortalama2 = 22;
+        System.out.println(sayi1);
+        System.out.println("Salam qadasi");
+        System.out.println("sayi bir deyiskenin deyeri  " + sayi2);
+        System.out.println(sayi3 + " " +  not1  + " "+  not2);
+        System.out.println(ortlama1 +  ""  + ortalama2);
+        System.out.println(" ============= Double =================");
+        double litre = 2.5; //
+        System.out.println(litre);
+        System.out.println("===========FLoat ==========");
+        float vize = 77.9f; // Floata "f" yazilmalidi
+        float _final = 55f;
+        System.out.println(vize + " " + _final);
+        System.out.println("=========== BYTE ==========");
+        byte s1 = -127; // max 127    || -128
+        System.out.println(s1);
+        System.out.println("===Char==");
+        char a1 = 'a';
+        System.out.println(a1);
+        String a3 = "sa";
+        System.out.println(a3);
+        System.out.println("Boolean");
+        boolean t1 = true;
+        boolean t2 = false;
+
+        System.out.println(t1 + " " + t2);
+        boolean b1 = 5 < 1 ; // ! false
+        System.out.println(b1);
+        boolean b2 = 5 > 1 ; // ! true
+        System.out.println(b2);
+
     }
 
     @Override
